@@ -3,5 +3,6 @@ public class Main {
         Matriz m = new Matriz();
         m.ingresarDimension();
         m.verificarDimension();
+        m.completarMatriz();
     }
 }
