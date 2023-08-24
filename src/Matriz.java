@@ -112,6 +112,15 @@ import java.util.Random;
             System.out.println("No se puede mostrar la fila especificada debido a dimensiones no válidas o fila fuera de rango.");
         }
     }
+
+    private static int mostrarMenu() {
+        System.out.println("Menú:");
+        System.out.println("1. Verificar Dimensiones");
+        System.out.println("2. Crear Matriz, Completar Matriz, Mostrar Fila y Verificar Tipo CERO");
+        System.out.println("3. Cerrar Programa");
+        return Integer.parseInt(JOptionPane.showInputDialog("Ingresa el número de la opción deseada:"));
+    }
+
 }
 
 
